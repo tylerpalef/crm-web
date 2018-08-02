@@ -44,7 +44,7 @@ footer {
 }
 
 .contacts-msg {
-  background: #f2b3b3;
+  background: #e0dac9;
   font-size: 1.3em;
   padding: 10px;
 }
@@ -79,4 +79,36 @@ footer {
 .contact-info h1 {
   font-weight: 700;
   font-size: 1.5em;
+}
+
+.welcome {
+  background: #e0dac9;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 1.5em;
+}
+
+.welcome h2 {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.about-me {
+  background: #e0dac9;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+.about-me h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+}
+
+.about-me p {
+  margin: 7px 0px;
 }
