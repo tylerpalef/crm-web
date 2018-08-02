@@ -4,8 +4,13 @@
   <ul class='contact-list'>
     <%@contacts.each do |contact| %>
       <li>
-      <%=contact.first_name.capitalize%> <%=contact.last_name.capitalize%> (<%=contact.email%>)
-      <p class='mod-links'><a href="#">Edit</a> | <a href="#">Delete</a></p>
+        <p>
+          <a class ='contact-link' href="/contacts/<%=contact.id%>">
+            <%=contact.first_name.capitalize%> <%=contact.last_name.capitalize%>
+          </a>
+          (<%=contact.email%>)
+        </p>
+        <p class='mod-links'><a href="#">Edit</a> | <a href="#">Delete</a></p>
       </li>
     <%end%>
   </ul>

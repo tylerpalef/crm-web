@@ -36,7 +36,7 @@ footer {
 
 #contact-counter {
   font-weight: 700;
-  border-bottom: 3px solid #31d8cd;
+  border-bottom: 5px solid #31d8cd;
 }
 
 .contacts-display {
@@ -60,4 +60,23 @@ footer {
 .mod-links {
   font-size: 0.7em;
   margin-top: 4px;
+}
+
+.contact-list a:visited {
+  color: black;
+}
+
+.contact-list a:hover {
+  color: grey;
+}
+
+.contact-info {
+  background: #31d8cd;
+  margin: 10px 15px;
+  padding: 10px 10px;
+}
+
+.contact-info h1 {
+  font-weight: 700;
+  font-size: 1.5em;
 }
